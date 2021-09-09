@@ -5,7 +5,7 @@
  */
 
 import axios from 'axios';
-import {requireConfig, TotalBean, getBeanShareCode, getFarmShareCode, wait, requestAlgo, decrypt, getJxToken} from './TS_USER_AGENTS';
+import {requireConfig, TotalBean, getBeanShareCode, getFarmShareCode, wait, requestAlgo, decrypt, getJxToken} from './TS_USER_AGENTS.ts';
 //import {Md5} from "ts-md5";
 import {accessSync} from "fs";
 
