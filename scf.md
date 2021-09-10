@@ -1,5 +1,4 @@
- href="#基础配置">基础配置</a>
-          <a role="menuitem" class="filter-item SelectMenu-item py-1 " style="padding-left: 48px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:362646763,&quot;originating_url&quot;:&quot;https://github.com/JunzhouLiu/BILIBILI-HELPER-PRE/blob/main/docs/scf.md&quot;,&quot;user_id&quot;:77956099}}" data-hydro-click-hmac="d23cde76bb1c43183b1762be22e45582e0c4b89c814be2957ae0a2e3cba1954c" href="#函数代码配置">函数代码配置</a>
+href="#函数代码配置">函数代码配置</a>
           <a role="menuitem" class="filter-item SelectMenu-item py-1 " style="padding-left: 48px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:362646763,&quot;originating_url&quot;:&quot;https://github.com/JunzhouLiu/BILIBILI-HELPER-PRE/blob/main/docs/scf.md&quot;,&quot;user_id&quot;:77956099}}" data-hydro-click-hmac="d23cde76bb1c43183b1762be22e45582e0c4b89c814be2957ae0a2e3cba1954c" href="#高级配置">高级配置</a>
           <a role="menuitem" class="filter-item SelectMenu-item py-1 " style="padding-left: 48px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:362646763,&quot;originating_url&quot;:&quot;https://github.com/JunzhouLiu/BILIBILI-HELPER-PRE/blob/main/docs/scf.md&quot;,&quot;user_id&quot;:77956099}}" data-hydro-click-hmac="d23cde76bb1c43183b1762be22e45582e0c4b89c814be2957ae0a2e3cba1954c" href="#环境配置">环境配置</a>
           <a role="menuitem" class="filter-item SelectMenu-item py-1 " style="padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:362646763,&quot;originating_url&quot;:&quot;https://github.com/JunzhouLiu/BILIBILI-HELPER-PRE/blob/main/docs/scf.md&quot;,&quot;user_id&quot;:77956099}}" data-hydro-click-hmac="d23cde76bb1c43183b1762be22e45582e0c4b89c814be2957ae0a2e3cba1954c" href="#触发器配置">触发器配置</a>
@@ -325,24 +324,6 @@
   
   Go
   
-
-</button>
-</form>    </details-dialog>
-  </details>
-
-    <div class="Popover anim-scale-in js-tagsearch-popover"
-     hidden
-     data-tagsearch-url="/JunzhouLiu/BILIBILI-HELPER-PRE/find-definition"
-     data-tagsearch-ref="main"
-     data-tagsearch-path="docs/scf.md"
-     data-tagsearch-lang="Markdown"
-     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:362646763,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;Markdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/JunzhouLiu/BILIBILI-HELPER-PRE/blob/main/docs/scf.md&quot;,&quot;user_id&quot;:77956099}}"
-     data-hydro-click-hmac="9c2989a1f28a23f3287985afd6230bd70043b9019e0aca95b5574a8dfcae1923">
-  <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box color-shadow-large">
-    <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
-    </div>
-  </div>
-</div>
 
 
 </div>
