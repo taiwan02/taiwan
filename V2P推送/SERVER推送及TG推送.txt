@@ -1,0 +1,26 @@
+elecV2P 更新通知：新增自定义通知的方式，同时删除了默认的 SERVER 酱通知。
+
+如果想继续使用SERVER 酱，在自定义通知部分重新设置一下。
+
+通知链接：http://sc.ftqq.com/yourSCKEY.send
+
+选择 POST 方式，然后填写如下内容
+
+{
+  "text": "$title$",
+  "desp": `$body$
+多行文字使用反引号[链接]($url$)`
+}
+
+其中 $title$, $body$, $url$ 三个字段分别表示原本通知的标题/主体和链接，如果使用其他的自定义通知，请根据通知平台提供的API 说明文档，自行参照进行设置。
+
+例如使用 telegram bot 通知，通知链接：https://api.telegram.org/bot你的botapi/
+
+选择POST 方式，内容如下：
+
+{
+  "method": "sendMessage",
+  "chat_id": 你的tg userid,
+  "text": `$title$\n$body$
+$url$`
+}

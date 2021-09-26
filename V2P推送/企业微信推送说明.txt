@@ -1,0 +1,5 @@
+v2p企业微信应用通知设置：
+1.将js文件拉到jsmanage 
+2.申请企业微信应用，见教程：http://note.youdao.com/s/HMiudGkb
+3.将申请到的corpid,corpsecret,touser,agentid等参数，放到js对应位置
+4.v2p设置：通知触发js打开，填写js文件即可
