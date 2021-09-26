@@ -181,3 +181,8 @@ Build 20210815-001
 
 频道：https://t.me/update_help
 交流群：https://t.me/update_help_group
+
+格式化更新助力码	task /ql/config/code.sh	*/10 * * * *
+自动更新模板	curl -L https://raw.githubusercontents.com/shufflewzc/VIP/main/Conf/Qinglong/config.sample.sh -o /ql/sample/config.sample.sh && cp -rf /ql/sample/config.sample.sh /ql/config	45 6,18 * * *
+初始化任务	ql extra	15 0-23/4 * * *
+拉取机器人	ql bot	13 14 * * *
