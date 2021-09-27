@@ -1,0 +1,11 @@
+//记得把 url.hostname 替换成想要加速的 v2ray 节点域名（只是域名，不要添加前面的 http 和后面的路径那些）
+addEventListener(
+  "fetch",event => {
+     let url=new URL(event.request.url);
+     url.hostname="xxxx-elecv2.cloud.okteto.net";
+     let request=new Request(url,event.request);
+     event. respondWith(
+       fetch(request)
+     )
+  }
+)
