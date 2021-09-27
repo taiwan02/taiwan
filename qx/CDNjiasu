@@ -1,7 +1,7 @@
-CDN 加速直连 raw.githubusercontent.com
+//CDN 加速直连 raw.githubusercontent.com
 
-[rewrite]
+//[rewrite]
 ^https://raw.githubusercontent.com url 307 https://raw.ev2.workers.dev
 
-[mitm]
-raw.githubusercontent.com
+//[mitm]
+hostname = raw.githubusercontent.com
