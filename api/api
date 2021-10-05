@@ -1,0 +1,358 @@
+replies:
+##自动回复
+  - type: url
+    rules:
+      - 笨妞 (.*) ##自定义关键词，傻妞已经被占用了
+    request:
+      response_type: text
+      url: 'https://api.iyk0.com/liaotian/?msg={{1}}'
+
+##图片类
+  - type: url
+    rules:
+      - 好康的
+      - 二次元
+    request:
+      response_type: image
+      url: 'https://acg.toubiec.cn/random.php'
+
+  - type: url
+    rules:
+      - 美女
+    request:
+      response_type: image
+      url: 'http://api.btstu.cn/sjbz/zsy.php'
+
+  - type: url
+    rules:
+      - 妹子
+    request:
+      response_type: image
+      url: 'http://api.btstu.cn/sjbz/?m_lx=suiji'
+
+  - type: url
+    rules:
+      - 壁纸
+    request:
+      response_type: image
+      url: 'https://api.ixiaowai.cn/gqapi/gqapi.php'
+
+  - type: url
+    rules:
+      - 涩图
+    request:
+      response_type: image
+      url: https://pximg2.rainchan.win/rawimg
+
+  - type: url
+    rules:
+      - 买家秀
+    request:
+      response_type: text
+      url: 'http://api520.ltd/api/mjx.php'
+
+  - type: url
+    rules:
+      - 美腿
+    request:
+      response_type: image
+      url: 'https://api.iyk0.com/mtt'
+
+##文字类
+  - type: url
+    rules:
+      - 一言
+    request:
+      response_type: text
+      url: 'https://api.ixiaowai.cn/ylapi/index.php'
+
+  - type: url
+    rules:
+      - 骚话
+    request:
+      response_type: text
+      url: 'https://api.vvhan.com/api/sao'
+
+  - type: url
+    rules:
+      - 舔狗
+    request:
+      response_type: text
+      url: 'https://api.ixiaowai.cn/tgrj/index.php'
+
+  - type: url
+    rules:
+      - 热搜
+    request:
+      response_type: text
+      url: 'http://api.hippoliu.site/api/resou/resou.php'
+
+  - type: url
+    rules:
+      - 毒鸡汤
+    request:
+      response_type: json
+      url: 'https://www.hlapi.cn/api/djt?charset=utf-8&encode=json'
+      get: text
+
+  - type: url
+    rules:
+      - 笑话
+    request:
+      response_type: text
+      url: 'https://www.hlapi.cn/api/gxdz'
+
+  - type: url
+    rules:
+      - 历史上的今天
+    request:
+      response_type: json
+      url: 'https://api.ooomn.com/api/history?format=json'
+      get: content
+
+  - type: url
+    rules:
+      - 情话
+    request:
+      response_type: json
+      url: 'https://api.ooomn.com/api/love'
+      get: text
+
+  - type: url
+    rules:
+      - 古诗词
+    request:
+      response_type: text
+      url: 'https://api.zylearning.top/api/gushici/'
+
+  - type: url
+    rules:
+      - 土味情话
+    request:
+      response_type: text
+      url: 'https://api.xcboke.cn/api/yulu?c=1001&encode=text'
+
+  - type: url
+    rules:
+      - 精神语录
+    request:
+      response_type: text
+      url: 'https://api.xcboke.cn/api/yulu?c=1002&encode=text'
+
+  - type: url
+    rules:
+      - 网抑云
+    request:
+      response_type: json
+      url: 'https://api.xcboke.cn/api/yulu?c=1003&encode=json'
+      get: text
+
+  - type: url
+    rules:
+      - 朋友圈文案
+    request:
+      response_type: text
+      url: 'https://api.xcboke.cn/api/yulu?c=1008&encode=text'
+
+  - type: url
+    rules:
+      - 来对线
+    request:
+      response_type: text
+      url: 'https://api.xcboke.cn/api/yulu?c=1009&encode=text'
+
+  - type: url
+    rules:
+      - 动漫台词
+    request:
+      response_type: text
+      url: 'https://api.xcboke.cn/api/yulu?c=2001&encode=text'
+
+  - type: url
+    rules:
+      - 游戏台词
+    request:
+      response_type: text
+      url: 'https://api.xcboke.cn/api/yulu?c=2003&encode=text'
+
+  - type: url
+    rules:
+      - 撩人语录
+    request:
+      response_type: text
+      url: 'https://api.xcboke.cn/api/yulu?c=2005&encode=text'
+
+  - type: url
+    rules:
+      - 什么梗 (.*)
+    request:
+      response_type: json
+      url: 'https://api.iyk0.com/gzs/?msg={{1}}'
+      get: title
+
+  - type: url
+    rules:
+      - 彩虹屁
+    request:
+      response_type: json
+      url: 'https://api.iyk0.com/chp'
+      get: txt
+
+  - type: url
+    rules:
+      - 取名
+    request:
+      response_type: json
+      url: 'https://api.iyk0.com/sjxm/'
+      get: name
+
+#####功能类
+  - type: url
+    rules:
+      - 股票 (.*)
+    request:
+      response_type: text
+      url: 'https://zyzcfa.com:444/api/stocks?keyword={{1}}'
+
+  - type: url
+    rules:
+      - 翻译 (.*)
+    request:
+      response_type: json
+      url: 'https://api.66mz8.com/api/translation.php?info={{1}}'
+      get: fanyi
+
+  - type: url
+    rules:
+      - 二维码 (.*)
+    request:
+      response_type: image
+      url: >-
+        http://apis.juhe.cn/qrcode/api?text={{1}}&type=2&key=##免费注册获取key，或者使用其他接口
+
+  - type: url
+    rules:
+      - 短网址 (.*)
+    request:
+      response_type: json
+      url: 'https://www.lzfh.com/api/dwz.php?cb=1&sturl=6&longurl={{1}}'
+      get: dwz_url
+#      url: 'https://api.sumt.cn/api/short.php?dwz=mrwso&url={{1}}'   ##|suoim|suonz|mrwso    #可以切换不同的URL
+#      get: url_short                                                 ##|mtw.so|suo.nz|mrw.so
+
+  - type: url
+    rules:
+      - QQ状态 (.*)
+    request:
+      response_type: json
+      url: 'https://api.sumt.cn/api/qq.state.php?qq={{1}}'
+      get: state
+
+  - type: url
+    rules:
+      - 自定短址 (.*) (.*)
+    request:
+      response_type: json
+      url: 'https://api.sumt.cn/api/dwz.url.php?url={{1}}&&code={{2}}'
+      get: url_short
+
+  - type: url
+    rules:
+      - 短址还原 (.*)
+    request:
+      response_type: json
+      url: https://api.sumt.cn/api/restore.php?url={{1}}
+      get: url_long
+
+  - type: url
+    rules:
+      - 网站状态 (.*)
+    request:
+      response_type: json
+      url: 'https://api.sumt.cn/api/http.code.php?url={{1}}'
+      get: http_code
+
+  - type: url
+    rules:
+      - QQ音乐MV (.*) (.*)
+      - QQ音乐mv (.*) (.*)
+    request:
+      response_type: text
+      url: 'https://www.hlapi.cn/api/qqmv?msg={{1}}&n={{2}}'
+
+  - type: url
+    rules:
+      - 搜歌 (.*)
+    request:
+      response_type: json
+      url: 'https://api.iyk0.com/gcsg/?Keyword={{1}}'
+      get: data
+
+  - type: url
+    rules:
+      - 百科 (.*)
+    request:
+      response_type: json
+      url: 'https://api.iyk0.com/sgbk/?msg={{1}}'
+      get: data
+
+  - type: url
+    rules:
+      - 天气城市 (.*)
+    request:
+      response_type: text
+      url: 'https://api.iyk0.com/3rtq/?msg={{1}}'
+
+  - type: url
+    rules:
+      - 天气 (.*) (.*)
+    request:
+      response_type: text
+      url: 'https://api.iyk0.com/3rtq/?msg={{1}}&b={{2}}'
+      
+  - type: url
+    rules:
+      - 淘宝搜索 (.*)
+    request:
+      response_type: text
+      url: 'https://api.iyk0.com/tbsp/?msg={{1}}'
+
+  - type: url
+    rules:
+      - 淘宝 (.*) (.*)
+    request:
+      response_type: text
+      url: 'https://api.iyk0.com/tbsp/?msg={{1}}&n={{2}}'
+
+  - type: url
+    rules:
+      - ^动漫涩图$
+    request:     
+      url: http://yubanapi.top/API/r18.php
+      response_type: image
+      regex: ±img=(.*)±
+
+  - type: url
+    rules:
+      - ^随机色图$
+    request:
+      url: https://api.nyan.xyz/httpapi/sexphoto/
+      response_type: image
+      get: data.url.[0]
+
+#青云客机器人
+  - type: url
+    rules:
+      - 青云[，,\s]*(\S*)
+    request:
+        response_type: json
+        url: http://api.qingyunke.com/api.php?key=free&appid=0&msg={{1}}
+        get: content
+  #小爱机器人
+  - type: url
+    rules:
+      - (小爱\S*)
+    request:
+        response_type: json
+        url: https://jintia.jintias.cn/api/xatx.php?msg={{1}}
+        get: text
