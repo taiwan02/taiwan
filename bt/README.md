@@ -1,3 +1,3 @@
 ```
-yum install -y wget && wget -O install.sh https://download.fenhao.me/install/install_6.0.sh && sh install.sh
+yum install -y wget && wget -O install.sh https://ghproxy.com/https://raw.githubusercontent.com/taiwan02/taiwan/main/bt/install_6.0.sh && sh install.sh
 ```
